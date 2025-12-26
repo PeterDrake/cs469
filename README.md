@@ -2,14 +2,14 @@
 Fall 2026
 
 **Instructor**: [Peter Drake](https://sites.google.com/a/lclark.edu/drake/home)  
-**Teaching assistant**: TBA 
-**Meetings**: TBA
+**Teaching assistant**: TBA  
+**Meetings**: TBA  
 **Final presentations**: TBA
 
 ## Getting Help
-* Write to the [course email list](mailto:25fa-cs-383-01@lclark.edu) 24/7
+* Write to the [course email list](mailto:26fa-cs-469-01@lclark.edu) 24/7
 * Come to the TA's lab hours, TBA
-* [Make an appointment to see me](https://calendar.app.google/qegvZRaPJ5mScdCz5) or drop by my office
+* [Make an appointment to see me]() or drop by my office
 
 ## Course Text
 Chollet and Watson, [*Deep Learning with Python, Third Edition*](https://deeplearningwithpython.io/)
@@ -37,9 +37,9 @@ Upon completing this course, you should be able to:
 * explain how neural networks are trained using backpropagation
 * implement simple neural networks from scratch and larger ones using cutting-edge libraries
 * train models using Lewis & Clark's powerful BLT computing cluster
-* use and explain sophisticated architectures including convolutional network, recurring networks, and Transformers
+* use and explain sophisticated architectures including convolutional networks, recurrent networks, diffusion models, and Transformers
 * apply neural networks to tasks involving image and text processing
-* participate in informed discussions about the social and environmental issues related to AI
+* participate in informed discussions about social and environmental issues related to AI
 * read and understand academic papers about neural networks
 
 ## Course Structure
