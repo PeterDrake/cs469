@@ -2,7 +2,6 @@
 Fall 2026
 
 **Instructor**: [Peter Drake](https://sites.google.com/a/lclark.edu/drake/home)  
-**Teaching assistant**: TBA  
 **Meetings**: TBA  
 **Final presentations**: TBA
 
