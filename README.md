@@ -2,12 +2,11 @@
 Fall 2026
 
 **Instructor**: [Peter Drake](https://sites.google.com/a/lclark.edu/drake/home)  
-**Meetings**: TBA  
-**Final presentations**: TBA
+**Meetings**: 12:40 - 1:40 PM MWF, Olin 305  
+**Final presentations**: 8:30 - 11:30 AM, Wednesday, December 16
 
 ## Getting Help
 * Write to the [course email list](mailto:26fa-cs-469-01@lclark.edu) 24/7
-* Come to the TA's lab hours, TBA
 * [Make an appointment to see me]() or drop by my office
 
 ## Course Text
@@ -17,7 +16,7 @@ Near the end of the course, we will also read several papers from [a curated lis
 
 ## Links
 [Course Policies](https://github.com/PeterDrake/drakepedia/blob/master/administrivia/policies.md)  
-Class Notes  
+[Class Notes](lessons)  
 In-Class Code  
 [Pythonorama](https://github.com/alainkaegi/pythonorama/blob/main/README.md)
 
@@ -85,3 +84,47 @@ Flex days are days for you to work on assignments in class. They also serve as a
 30. Famous papers II
 31. Famous papers III
 32. Review
+
+| Day | Date   | Lesson                                     |
+|-----|--------|--------------------------------------------|
+| Mon | Aug 31 | Playing with generative AI                 |
+| Wed | Sep 2  | Syllabus, setup, and terminology           |
+| Fri | Sep 4  | Python review                              |
+| Wed | Sep 9  | Overview of neural networks                |
+| Fri | Sep 11 | NumPy                                      |
+| Mon | Sep 14 | Flex                                       |
+| Wed | Sep 16 | Tensors                                    |
+| Fri | Sep 18 | Gradient descent and backpropagation       |
+| Mon | Sep 21 | TensorFlow                                 |
+| Wed | Sep 23 | PyTorch, JAX, and Keras                    |
+| Fri | Sep 25 | BLT                                        |
+| Mon | Sep 28 | Classification and regression              |
+| Wed | Sep 30 | Flex                                       |
+| Fri | Oct 2  | Fundamentals of machine learning           |
+| Mon | Oct 5  | The universal workflow of machine learning |
+| Wed | Oct 7  | A deep dive on Keras                       |
+| Mon | Oct 12 | Image classification                       |
+| Wed | Oct 14 | Flex                                       |
+| Fri | Oct 16 | ConvNet architecture patterns              |
+| Mon | Oct 19 | Interpreting what ConvNets learn           |
+| Wed | Oct 21 | Image segmentation                         |
+| Fri | Oct 23 | Object detection                           |
+| Mon | Oct 26 | Timeseries forecasting                     |
+| Wed | Oct 28 | Flex                                       |
+| Fri | Oct 30 | Text classification                        |
+| Mon | Nov 2  | Language models and the Transformer        |
+| Wed | Nov 4  | Text generation                            |
+| Fri | Nov 6  | Image generation                           |
+| Mon | Nov 9  | Best practices for the real world          |
+| Wed | Nov 11 | Flex                                       |
+| Fri | Nov 13 | The future of AI                           |
+| Mon | Nov 16 | Social issues                              |
+| Wed | Nov 18 | AI and the environment                     |
+| Fri | Nov 20 | Famous papers I                            |
+| Mon | Nov 23 | Famous papers II                           |
+| Mon | Nov 30 | Famous papers III                          |
+| Wed | Dec 2  | Flex                                       |
+| Fri | Dec 4  | Review                                     |
+| Mon | Dec 7  | Flex                                       |
+| Wed | Dec 9  | Flex                                       |
+| Wed | Dec 16 | Final presentations, 8:30 - 11:30 AM       |
