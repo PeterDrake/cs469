@@ -50,41 +50,6 @@ There are no exams. In place of a final exam, your team will present their final
 ## Schedule
 Flex days are days for you to work on assignments in class. They also serve as a reserve in case of getting behind, instructor illness, inclement weather, etc. Note the links to class notes above.
 
-(A few flex days will be interleaved with the topics below. Exact dates TBA.)
-
-1. Playing with generative AI
-2. Syllabus and setup (including terminology from ch 1)
-3. Python review
-4. Overview of neural networks (s 2.1)
-5. NumPy
-6. Tensors (s 2.2)
-7. Gradient descent and backpropagation (s 2.4)
-8. TensorFlow (ss 3.1-3.3)
-9. PyTorch, JAX, and Keras (ss 3.4-3.6)
-10. BLT
-11. Classification and regression (ch 4)
-12. Fundamentals of machine learning (ch 5)
-13. The universal workflow of machine learning (ch 6)
-14. A deep dive on Keras (ch 7)
-15. Image classification (ch 8)
-16. ConvNet architecture patterns (ch 9)
-17. Interpreting what ConvNets learn (ch 10)
-18. Image segmentation (ch 11)
-19. Object detection (ch 12)
-20. Timeseries forecasting (ch 13)
-21. Text classification (ch 14)
-22. Language models and the Transformer (ch 15)
-23. Text generation (ch 16)
-24. Image generation (ch 17)
-25. Best practices for the real world (ch 18)
-26. Future of AI (ch 19-20)
-27. Social issues
-28. AI and the environment
-29. Famous papers I
-30. Famous papers II
-31. Famous papers III
-32. Review
-
 | Day | Date   | Lesson                                     |
 |-----|--------|--------------------------------------------|
 | Mon | Aug 31 | Playing with generative AI                 |
