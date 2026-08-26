@@ -7,7 +7,7 @@ Fall 2026
 
 ## Getting Help
 * Write to the [course email list](mailto:26fa-cs-469-01@lclark.edu) 24/7
-* [Make an appointment to see me]() or drop by my office
+* [Make an appointment to see me](https://calendar.app.google/8V66Am3SiCeBrzDM9) or drop by my office
 
 ## Course Text
 Chollet and Watson, [*Deep Learning with Python, Third Edition*](https://deeplearningwithpython.io/)
