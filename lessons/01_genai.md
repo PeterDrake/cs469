@@ -1,6 +1,6 @@
 # Playing With Generative AI
 
-## Round of introductions
+## Introductions
 * Name
 * Majors and minors
 * Something you ate or a game you played over the break
