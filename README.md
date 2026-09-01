@@ -58,7 +58,7 @@ Flex days are days for you to work on assignments in class. They also serve as a
 | Wed | Sep 9  | Overview of neural networks                |
 | Fri | Sep 11 | NumPy                                      |
 | Mon | Sep 14 | Flex                                       |
-| Wed | Sep 16 | Tensors                                    |
+| Wed | Sep 16 | Neural Networks From Scratch               |
 | Fri | Sep 18 | Gradient descent and backpropagation       |
 | Mon | Sep 21 | TensorFlow                                 |
 | Wed | Sep 23 | PyTorch, JAX, and Keras                    |

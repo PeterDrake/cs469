@@ -18,7 +18,9 @@
 
 # MNIST
 * Open [chapter 2 notebook](https://github.com/fchollet/deep-learning-with-python-notebooks)
-* Remember to turn off AI assistance
+* Remember to:
+  * Make a copy
+  * Turn off AI assistance
 * Read through the code under "A first look at a neural network" together with warm calls
   * What type of value does `mnist.load_data()` return?
   * Explain the value of `train_images.shape`.
