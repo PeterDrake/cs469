@@ -36,26 +36,8 @@
   * `a[a > 3]`
     * Note the reduction in dimensions
   * `a[(a > 3) & (a < 8)]`
-
-# A Brief Peek at Matplotlib
-*
-  ```python
-  import matplotlib.pyplot as plt
-    
-  x = np.linspace(1, 10, 10)
-  y = x ** 2
-  plt.plot(x, y)
-  ```
-* Nice to add `None` on the last line
-* Second data set?
-  ```python
-  y2 = x * 2
-  plt.plot(x, y2)
-  ```
-* Experiment: `scatter` instead of `plot`
-* Challenge: Using the cheat sheet and web searching, add title and legend
-
-# Numpy Art Contest
-* Create a 256x256x3 tensor, data type uint8
-* Using loops, change some of the values
-* Using `plt.imshow`, display the image
+* Matrix multiplication
+  * How to compute by hand, with example
+  * RC mnemonic
+  * TPS: What are the constraints on the shapes of the multiplied matrices?
+* Work through [chapter 2 notebook](https://github.com/fchollet/deep-learning-with-python-notebooks), "The gears of neural networks: Tensor operations"

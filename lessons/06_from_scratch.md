@@ -2,7 +2,7 @@
 * [Slides](https://docs.google.com/presentation/d/1CRg2GwZt9ISUyTxtb8BrTx_SQQMzpfxgfelPZwiT7fI/edit?usp=sharing)
 
 # Building a Neural Network From Scratch
-* Mob programming, students following along
+* Mob programming, pairs of students taking turns typing
 * OR
   * By hand, find weights that work with threshold function
   * Implement a neuron using individual values
