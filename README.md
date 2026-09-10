@@ -10,7 +10,7 @@ Fall 2026
 * [Make an appointment to see me](https://calendar.app.google/8V66Am3SiCeBrzDM9) or drop by my office
 
 ## Course Text
-Chollet and Watson, [*Deep Learning with Python, Third Edition*](https://deeplearningwithpython.io/)
+Chollet and Watson, [*Deep Learning with Python, Third Edition*](https://deeplearningwithpython.io/) (which has [associated Jupyter notebooks](https://github.com/fchollet/deep-learning-with-python-notebooks#table-of-contents))
 
 Near the end of the course, we will also read several papers from [a curated list](https://papers.baulab.info/).
 
