@@ -17,7 +17,7 @@ Near the end of the course, we will also read several papers from [a curated lis
 ## Links
 [Course Policies](https://github.com/PeterDrake/drakepedia/blob/master/administrivia/policies.md)  
 [Class Notes](lessons)  
-[In-Class Code](https://drive.google.com/drive/folders/1HBtsm9IdJs0xP_D7BVDyKP95ELiiHXES?usp=drive_link)  
+In-Class Code: [Notebooks](https://drive.google.com/drive/folders/1HBtsm9IdJs0xP_D7BVDyKP95ELiiHXES?usp=drive_link), [GitHub](https://github.com/PeterDrake/cs469_f26_in_class)  
 [Teams](https://docs.google.com/document/d/1cJUB2QII7v-bA8cGbaXLi-9oyFRfsiYV3aF_5oi3lKo/edit?usp=drive_link)  
 [Pythonorama](https://github.com/alainkaegi/pythonorama/blob/main/README.md)
 
