@@ -1,4 +1,10 @@
 # Universal Workflow of Machine Learning
+* Roleplaying exercise
+  * Each team: Come up with three product ideas (things you'd want or imagine others would want)
+  * Swap, then for each one:
+    * What are you trying to predict?
+    * What kind of task is this?
+    * How would you get data?
 * "You don't start from a dataset; you start from a problem."
 * Defining the task
   * A "business" might be a government or nonprofit organization
