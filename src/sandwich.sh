@@ -1,4 +1,5 @@
-#!/bin/sh
-source /home/labs/drake/cs369/venv2025/bin/activate
+#!/bin/bash
+#SBATCH --gres=gpu:2    # Request 2 GPUs
+source /home/labs/drake/keras2026/bin/activate
 python3 sandwich.py
 deactivate

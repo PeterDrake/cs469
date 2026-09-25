@@ -40,3 +40,5 @@ Explore kaggle more deeply, tackling some of their other challenges. This is a p
 Hand in the output file generated on BLT.
 
 If you did any challenge problems, hand in any relevant files (like alternate versions of `sandwich.py`) and explain what you did.
+
+As a comment with your handin in Google Classroom, also tell me the secret number I left as a comment on the Fashion assignment. (This to verify that you are seeing the assignment feedback.)
