@@ -27,4 +27,4 @@ instead of opening a GUI window.
 * Try k-fold cross-validation. Does it help?
 
 # What to Hand in
-Hand in a link to your Colab notebook.
+Hand in a link to your .py file and the output of your final run (including testing).
