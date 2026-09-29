@@ -10,8 +10,9 @@ You'll need to get the [life expectancy dataset](https://www.kaggle.com/datasets
 from Kaggle. For various countries (in various years), it gives live expectancy and a number of related variables.
 The regression task is to predict life expectancy from some of these, as specified in the [sample file](../src/life_expectancy.py).
 
-First, train a linear classifier (that is, a network with a single unit with no activation function) on the data. You
-should get a training (and validation) mean square error of around 0.0036.
+First, train a linear classifier (that is, a network with a single unit with no activation function) on the data. You'll need to complete all of the sections after
+`TODO` in the sample file. You should get a training (and validation) mean square error
+of around 0.0036.
 
 Now add a hidden layer. This should significantly improve your mean squared error. I was able to get the MSE down to
 about 0.0017 on the training set and 0.0022 on the validation set. (I was not able to get the network to overfit in the
