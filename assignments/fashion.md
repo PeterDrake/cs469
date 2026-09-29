@@ -1,6 +1,8 @@
 # Overview
 This exercise gives your first taste of training a neural network using Keras.
 
+**This is an individual assignment. You are meant to write the code on your own. You are welcome to discuss *ideas* with other students (including on the class email list), but don't look at their code or show them yours.**
+
 # Fashion MNIST
 The [Fashion-MNIST]([https://en.wikipedia.org/wiki/Fashion-MNIST](https://keras.io/api/datasets/fashion_mnist/)) dataset is very similar to the MNIST dataset introduced on p. 17 of the textbook, but the images to be classified are low-resolution photos of clothing items rather than handwritten digits.
 
