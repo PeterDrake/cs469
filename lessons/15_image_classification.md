@@ -12,3 +12,5 @@
     * Feature extraction
     * Fine-tuning (including partial)
 * If excess time, work through notebook
+  * This requires logging into Kaggle *and* joining the competition
+  * ... and save `convnet_from_scratch_with_augnentation.keras` for later
