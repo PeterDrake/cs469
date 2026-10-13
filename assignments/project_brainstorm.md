@@ -1,6 +1,6 @@
 # Overview
 
-This is the first part of the team project. Over the course of the semester, your team will build a neural network model for a machine learning task, train it on data, and evaluate it on test data.
+This is part of the team project. Over the course of the semester, your team will build a neural network model for a machine learning task, train it on data, and evaluate it on test data.
 
 **This is a team assignment. When you are done:**
 * ***One* member of your team should submit the file, including (as a comment at the top of the file) the names of everyone who contributed.**
