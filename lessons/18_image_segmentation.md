@@ -9,7 +9,7 @@
     * Discuss: Could we pool and unpool instead?
   * Intersection over Union
   * Can work through code, but training this thing would take over an hour!
-    * Could we do it with BLT? Jeremy is working on it.
+    * It trained about twice as fast on BLT
 * Using a pretrained model
   * Start loading the model -- it takes a few minutes
   * Work through this section of notebook
