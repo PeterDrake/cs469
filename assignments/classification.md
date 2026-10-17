@@ -15,7 +15,7 @@ If you run on BLT, these files are in `/home/drake/butterfly/images/data`, so yo
 # Image Classification
 Using a convolutional network, train a model to classify these images.
 
-For comparison, I was able to get about 8% validation accuracy using a simple net with no convolutional layers and 71% using a model lifted fairly directly from chapter 8.
+For comparison, I was able to get about 8% validation accuracy using a simple net with no convolutional layers and roughly 70% using a model lifted fairly directly from chapter 8.
 
 # Hints
 Use TensorFlow dataset object, as explained in subsection 8.2.4. The data directories are already arranged correctly for this.
