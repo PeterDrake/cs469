@@ -27,5 +27,5 @@ instead of opening a GUI window.
 * Include more of the variables. Can you get better accuracy?
 * Try k-fold cross-validation. Does it help?
 
-# What to Hand in
+# What to Hand In
 Hand in a link to your .py file and the output of your final run (including testing).
