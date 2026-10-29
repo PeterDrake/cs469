@@ -37,17 +37,17 @@
       * Listing 14.7 in the printed book is just wrong -- it doesn't match the online book or the Colab notebook!
   * Upshot: This doesn't have to use `'[UNK]'`, but doesn't need as many tokens as character encoding
 
-# Sets vs Sequences
+## Sets vs Sequences
 * Idea: Will we pay attention to word order?
 * IMDb movie review classification dataset
 
-# Set Models
+## Set Models
 * One-hot encode all tokens present ("bag of words")
 * Simple model gets 88% test accuracy
 * Bigrams turn this up to 90%
   * You could do trigrams, but there are too many combinations beyond that
 
-# Sequence Models
+## Sequence Models
 * Have to truncate or pad to make all sequences same length
   * Add special `'[PAD]'` token
 * Plan A for encoding the sequence: one-hot each word
