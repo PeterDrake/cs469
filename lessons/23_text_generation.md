@@ -1,0 +1,39 @@
+# Text Generation
+* Discussion: What do we think of the author's take on AI art and writing?
+
+## Training a Mini-GPT
+* Colossal Clean Crawled Corpus
+* Note the huge compute cost!
+* `SentencePieceTokenizer`
+* WC: Many documents will be far too long to fit into one vector of tokens. How does the book handle this?
+* Only uses the decoder
+  * Question and answer are put together in one sequence, making data curation much easier
+* Unembedding can be done by transposing the embedding weights
+* "Training a large Transformer is famously finicky"
+* In deep or recurrent networks, gradients can vanish (if units can saturate, like sigmoid) or explode (if they can't, like ReLU)
+  * Learning rate warms up over course of pretraining to prevent exploding gradients
+* Logits are the "unnormalized log probabilities" before applying softmax
+* When generating text, the input has to be padded (so it's always the same length) to allow for compiling and therefore efficiency
+* Cached generation: save state rather than re-reading entier input sequence for each token generated
+* Sampling strategies
+  * Greedy
+  * Top-k
+  * Random (with temperature)
+
+## Using a Pretrained LLM
+* Environmental costs (first two paragraphs of 16.3)
+* "The Gemma terms of uses prohibit using the model for things like generating spam or hate speech."
+* We've got spicy autocorrect!
+  * You can do better with more elaborate prompts
+  * Hallucination
+* Instruction fine-tuning
+  * Train further on handcrafted instruction-response pairs
+  * Will need a special technique to train
+* Low-Rank Adaptation (LoRA)
+  * Because optimizer needs to keep track of gradients and momentum, it can run out of memory
+  * You can save memory by freezing some of the weights
+  * LoRA replaces a linear layer with a frozen version plus a smaller trainable approximation
+  * With that, we can do the instruction fine-tuning
+    * Much better at answering questions
+    * Still hallucinates
+      * ... but you could train it with pairs where the "correct" response is "I don't know"
