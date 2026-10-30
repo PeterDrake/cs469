@@ -37,3 +37,30 @@
     * Much better at answering questions
     * Still hallucinates
       * ... but you could train it with pairs where the "correct" response is "I don't know"
+
+## Going Further With LLMs
+* Reinforcement learning with human feedback
+  * Have humans rank various responses
+  * Train another, smaller model to produce these ratings
+  * Use this to train the main model using reinforcement learning
+    * Listing 16.15
+  * With other tricks, is less prone to hallucinations
+    * But read last paragraph before 16.4.2
+* Multimodal LLMs
+  * A separate image encoder can encode an image as a sequence of "soft tokens"
+    * WC: In what sense are they "soft"?
+* Foundation models (second paragraph on p. 501, before 16.4.3)
+* Retrieval augmented generation (RAG)
+  * LLMs have a cutoff date in their knowledge
+    * Compare how humans know the music and other pop culture from when they were in college
+    * Add extra information into the prompt
+      * Perhaps from a vector database: a bunch of documents embedded as vectors
+    * Bulleted list before 16.4.4
+* "Reasoning" models
+  * Classical vs connectionist AI
+  * Chain-of-thought prompting: "Show your work"
+  * By checking final answers, you can use reinforcement learning to fine-tune the "reasoning" generation
+* Where Are LLMs Heading Next?
+  * Recently companies have been seeking more data rather than larger models
+  * Figure 16.8 (note logarithmic scales)
+  * We're running out of data!
