@@ -30,3 +30,13 @@
     * If you trained longer, you'd get better results
 
 ## Text-to-Image Models
+* Both noisy image and text embedding are fed to denoiser
+* Training is very expensive, so the book downloads the Stable Diffusion model
+  * TPS: How would we modify this to generate video instead of still images
+* Discuss: What properties of Figures 17.13 and 17.14 seem AI-generated to you? Why would AI tend to do that?
+* Task for 17.3.1: Morphing between images for two text prompts
+* Motivation for slerping, after Listing 17.10
+
+* Discuss: I've got a few key frames for a 2D character in a video game.
+  * How could I interpolate between them using techniques from this chapter?
+  * How might I do it without using deep learning?
