@@ -17,3 +17,16 @@
       * Discussion: The book talks about 1s and 4s, but there don't seem to be any here. Ideas?
 
 ## Diffusion Models
+* Autoencoders are good for denoising and image super-resolution
+  * Moon photo hallucinations
+  * Reverse diffusion: start with pure noise and iteratively enhance
+* U-Net
+  * Downsampling followed by upsampling, with residual connections
+  * Gradually changes from low signal, high noise to vice versa
+    * Weirdly, diffusion time seems to progress from 1 to 0 (because 0 is the fully denoised image)
+  * Training logic before 17.2.5 "the generation process"
+  * Generation process: start with random noise and repeatedly denoise
+  * Results (Figure 17.12)
+    * If you trained longer, you'd get better results
+
+## Text-to-Image Models
