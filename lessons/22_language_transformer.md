@@ -7,7 +7,7 @@
 
 ## Sequence-to-Sequence Learning
 * Sequence in, sequence out
-* Useful for translation and sequence ordering
+* Useful for translation and question answering
 * Figure 15.1
 * English-to-Spanish translation
 * You can't just translate word-by-word, because word order differs between languages (second full paragraph, 15.2.2)

@@ -42,7 +42,7 @@
 * IMDb movie review classification dataset
 
 ## Set Models
-* One-hot encode all tokens present ("bag of words")
+* Multi-hot encode all tokens present ("bag of words")
 * Simple model gets 88% test accuracy
 * Bigrams turn this up to 90%
   * You could do trigrams, but there are too many combinations beyond that

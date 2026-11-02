@@ -21,10 +21,9 @@
 * Technicalities
   * Generally put it after each Dense or Conv2D layer
   * You don't need bias in layers
-  * Author recomments putting it between the convolution and the activation
+  * Author recommends putting it between the convolution and the activation
 
 # Depthwise separable convolutions
 * Idea: process each channel separately
 * Read last sentence in first paragraph in section 9.4
 * Discuss pros and cons
-* Read first paragraph after Figure 9.5
