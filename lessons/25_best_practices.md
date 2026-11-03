@@ -20,6 +20,8 @@
 * Data parallelism
 * Model parallelism
 * How do we monitor GPU usage on BLT?
+  * From BLT, ssh sprouts -t nvtop
+  * It looks like we have to do something special to use multiple GPUs, and the line in the book (under Using Data Parallelism With JAX, p. 551) throws an error. Still working with Jeremy on this.
 
 ## Lower Precision
 * Floating point precision
