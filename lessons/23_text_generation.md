@@ -14,7 +14,7 @@
   * Learning rate warms up over course of pretraining to prevent exploding gradients
 * Logits are the "unnormalized log probabilities" before applying softmax
 * When generating text, the input has to be padded (so it's always the same length) to allow for compiling and therefore efficiency
-* Cached generation: save state rather than re-reading entier input sequence for each token generated
+* Cached generation: save state rather than re-reading entire input sequence for each token generated
 * Sampling strategies
   * Greedy
   * Top-k

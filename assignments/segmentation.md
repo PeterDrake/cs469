@@ -33,7 +33,7 @@ This may take an hour or so to run! The results will appear in `output.txt` and 
 
 # Defining Your Own Network
 To define your own network:
-1. Define it in a file in the `src/mmodel_architectures` directory within your copy of `sky_segment`. Use `trivial_network.py` as an example. Of course, your network will need a number of convolutional layers. Remember that, since this is a segmentation task, the input and output images need to be the same size.
+1. Define it in a file in the `src/model_architectures` directory within your copy of `sky_segment`. Use `trivial_network.py` as an example. Of course, your network will need a number of convolutional layers. Remember that, since this is a segmentation task, the input and output images need to be the same size.
 2. In `src/config.py`, alter the line `NETWORK_ARCHITECTURE = 'trivial_network'`. For example, if you named your network definition file `my_net.py`, this line should be `NETWORK_ARCHITECTURE = 'my_net'`.
 
 Now you can run your network the same way as above. Try to get the final validation loss down to around 0.2.
