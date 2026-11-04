@@ -39,7 +39,7 @@ To define your own network:
 Now you can run your network the same way as above. Try to get the final validation loss down to around 0.2.
 
 # Optional Challenge Problems
-* Have the best validation error. The lowest two validation rates in the class get gold stars!
+* Have the best validation error. The lowest two validation errors in the class get gold stars!
 * Try applying the Segment Anything model to these data. I haven't tried this, so it may be a very challenging task. I'm fine with people working as a team on this if they want to tackle it.
 
 # What to Hand In
