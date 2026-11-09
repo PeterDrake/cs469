@@ -23,7 +23,7 @@
   * To monitor GPU usage, from BLT: `ssh sprouts -t watch -n 1 nvidia-smi`
   * Be sure to set backend to JAX *before* importing anything from keras
   * Before building your model, in your .py file: `keras.distribution.set_distribution(keras.distribution.DataParallel())
-`
+  * In .sh file, `#SBATCH --gres=gpu:2`
   * To start the right venv, `source /home/labs/drake/keras2026-jax/bin/activate` in your .sh file
 
 ## Lower Precision
