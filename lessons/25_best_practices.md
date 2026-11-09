@@ -19,9 +19,12 @@
 ## Multiple Devices
 * Data parallelism
 * Model parallelism
-* How do we monitor GPU usage on BLT?
-  * From BLT, ssh sprouts -t nvtop
-  * It looks like we have to do something special to use multiple GPUs, and the line in the book (under Using Data Parallelism With JAX, p. 551) throws an error. Still working with Jeremy on this.
+* BLT
+  * To monitor GPU usage, from BLT: `ssh sprouts -t watch -n 1 nvidia-smi`
+  * Be sure to set backend to JAX *before* importing anything from keras
+  * Before building your model, in your .py file: `keras.distribution.set_distribution(keras.distribution.DataParallel())
+`
+  * To start the right venv, `source /home/labs/drake/keras2026-jax/bin/activate` in your .sh file
 
 ## Lower Precision
 * Floating point precision
