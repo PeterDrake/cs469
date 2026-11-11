@@ -32,5 +32,5 @@
 * Very small gradient *updates* can't be represented in 16 bits, so
   * Use mixed precision, where most computations are 16-bit, but weights are stored in 32-bit
 * Scaling up the loss function prevents underflow when using 16 bits
-* Quantization for inference: convert weights to uint18
+* Quantization for inference: convert weights to uint8
   * Be sure to scale before casting to int!
