@@ -42,6 +42,7 @@
 * The "inherently sequential nature" of RNNs "precludes parallelization within training examples". TPS: What does this mean and why is it a problem?
 * Self-attention already existed -- like all papers, this stands on the shoulders of giants
 * Figure 1: We've seen this diagram before!
+  * If there are N = 6 copies of each layer, how exactly do the encoder-to-decoder connections work? It's not clear.
 * First paragraph under 3.2 attention
 * TPS: Why does the dot-product attention need to be scaled?
 * Positional encoding function is hand-coded; they tried learning it, but it wasn't any better
