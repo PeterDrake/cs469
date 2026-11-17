@@ -31,5 +31,30 @@
   * AlphaGo Zero beat AlphaGo 100-0 without human training
   * Generalized to AlphaZero, which ["achieved within 24 hours a superhuman level of play in the games of chess, shogi, and Go"](https://en.wikipedia.org/wiki/AlphaGo#AlphaGo_Zero_and_AlphaZero)
   * Changed Go strategy for human players; such programs are used for training
+* Easter egg in second set of references
 
 # Vaswani *et al.*, Attention Is All You Need
+* WC: What was the main contribution of this paper?
+* WC: Explain each of
+  * Recurrent neural networks
+  * Long short-term memory
+* What is a "gated recurrent neural network"? (We haven't heard this term, but we can guess.)
+* The "inherently sequential nature" of RNNs "precludes parallelization within training examples". TPS: What does this mean and why is it a problem?
+* Self-attention already existed -- like all papers, this stands on the shoulders of giants
+* Figure 1: We've seen this diagram before!
+* First paragraph under 3.2 attention
+* TPS: Why does the dot-product attention need to be scaled?
+* Positional encoding function is hand-coded; they tried learning it, but it wasn't any better
+* What does the word "desiderata" (end of first paragraph in section 4) mean?
+* Last paragraph of section 4
+* 5.2: Training time was bigger that what we've done, but much smaller than modern LLMs
+* Last sentence, first paragraph of 6.1
+  * Verify in Table 2
+  * What does BLEU mean?
+  * FLOP?
+* Table 3: They tried many variations
+* Constituency parsing (I had to look it up) appears to be a way of finding the grammatical structure of a sentence (noun, verb, dependent clauses, etc.)
+* Figures 3-5
+* What is "anaphora resolution"?
+  * Okay, how would you find out?
+* Suppose you get a job as an intern at an AI company. They tell you to replicate the results in this paper. You have a month and access to plenty of GPUs. What do you do?
