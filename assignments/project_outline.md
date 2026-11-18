@@ -16,7 +16,7 @@ Things to consider:
 * How are you measuring success?
 * How well does your network perform?
 * What training data did you use and why?
-* What is your network architecture?
+* What are your network architecture and other hyperparameters? What other variations did you try? How did they perform?
 * Can your network beat a trivial baseline?
 * Is overfitting an issue?
 * What are the limitations of your system? For example, where might it produce incorrect answers or be inappropriate to use?
